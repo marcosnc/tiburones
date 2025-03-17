@@ -8,9 +8,11 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    font-family: "Chewy", system-ui; /* Cambia la fuente aquí */
 }
 
-h1 {
+header h1 {
+    font-family: "Chewy", system-ui;
     color: #1e90ff;
 }
 
