@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f8ff;
+    background-color: #b5d2ec;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 
 header h1 {
     font-family: "Chewy", system-ui;
-    color: #1e90ff;
+    color: #1a71c4;
 }
 
 .gallery {
@@ -48,6 +48,12 @@ main img {
     margin: 20px 0;
 }
 
+.left-frame, .right-frame {
+    width: 100px; /* Ajusta el tamaño del marco */
+    background-color:#6fa4d3; /* Color del marco (puedes cambiarlo) */
+    height: 100%; /* Para que cubra toda la altura */
+}
+
 footer {
     position: fixed; /* Fija el footer en la pantalla */
     bottom: 0;       /* Lo coloca en el margen inferior */
@@ -55,8 +61,8 @@ footer {
     width: 100%;     /* Ocupa todo el ancho de la pantalla */
     text-align: center; /* Centra el texto */
     padding: 10px;   /* Espacio interno */
-    background-color: #f0f8ff; /* Fondo igual al del body, opcional */
-    color: #858585;     /* Color del texto */
+    background-color: #b5d2ec; /* Fondo igual al del body, opcional */
+    color: #96b9d8;     /* Color del texto */
     font-size: 12px; /* Tamaño de la fuente */
     z-index: 1000;   /* Asegura que esté por encima de otros elementos */
 }
