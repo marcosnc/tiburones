@@ -6,7 +6,11 @@ body {
 }
 
 header {
-    text-align: center;
+    width: 100%;     /* Ocupa todo el ancho de la pantalla */
+    text-align: center; /* Centra el texto */
+    padding: 10px;   /* Espacio interno */
+    background-color: #356fa1; /* Fondo igual al del body, opcional */
+
     margin-bottom: 20px;
     font-family: "Chewy", system-ui; /* Cambia la fuente aquí */
 }
@@ -48,12 +52,6 @@ main img {
     margin: 20px 0;
 }
 
-.left-frame, .right-frame {
-    width: 100px; /* Ajusta el tamaño del marco */
-    background-color:#6fa4d3; /* Color del marco (puedes cambiarlo) */
-    height: 100%; /* Para que cubra toda la altura */
-}
-
 footer {
     position: fixed; /* Fija el footer en la pantalla */
     bottom: 0;       /* Lo coloca en el margen inferior */
@@ -61,7 +59,7 @@ footer {
     width: 100%;     /* Ocupa todo el ancho de la pantalla */
     text-align: center; /* Centra el texto */
     padding: 10px;   /* Espacio interno */
-    background-color: #b5d2ec; /* Fondo igual al del body, opcional */
+    background-color: #356fa1; /* Fondo igual al del body, opcional */
     color: #96b9d8;     /* Color del texto */
     font-size: 12px; /* Tamaño de la fuente */
     z-index: 1000;   /* Asegura que esté por encima de otros elementos */
