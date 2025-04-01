@@ -59,7 +59,7 @@ footer {
     width: 100%;     /* Ocupa todo el ancho de la pantalla */
     text-align: center; /* Centra el texto */
     padding: 10px;   /* Espacio interno */
-    background-color: #356fa1; /* Fondo igual al del body, opcional */
+    background-color: #b5d2ec; /* Fondo igual al del body, opcional */
     color: #96b9d8;     /* Color del texto */
     font-size: 12px; /* Tamaño de la fuente */
     z-index: 1000;   /* Asegura que esté por encima de otros elementos */
