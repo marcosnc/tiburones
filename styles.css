@@ -50,6 +50,8 @@ main img {
     height: auto;
     border-radius: 10px;
     margin: 20px 0;
+    text-align: center;
+    align-items: center;
 }
 
 footer {
